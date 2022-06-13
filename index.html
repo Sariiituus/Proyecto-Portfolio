@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav class="navbar">
+          <div class="brand">
+            <img
+              src="./assets/images/logo-pc.png"
+              alt="logo"
+              class="nav-logo"
+            />
+          </div>
+          <ul class="menu">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">Sobre mí</a></li>
+            <li><a href="#">Mi portfolio</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <div class="info-content">
+          <h1>Sara Rodríguez Hernández</h1>
+          <p>Junior Front End Developer</p>
+          <a download href="#">
+            <button class="dowload-cv">Descargar CV</button>
+          </a>
+        </div>
+        <img
+          src="./assets/images/foto perfil.jpg"
+          alt="foto-perfil"
+          class="profile-img"
+        />
+      </main>
+    </div>
+
+    <div class="about">
+      <img src="./assets/images/Foto-perfil.JPG" alt="profile-about" />
+      <div class="about-info">
+        <h2>Sobre mí</h2>
+        <div class="divider"></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+          repellat adipisci, temporibus sint asperiores maxime sit optio ullam
+          facere natus minima corrupti unde? Beatae dolorum libero quae,
+          distinctio praesentium assumenda.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta omnis,
+          quas necessitatibus deleniti iusto modi tempora debitis ratione iste
+          ad consectetur magnam itaque optio accusantium laudantium illo
+          provident molestias! Modi?
+        </p>
+      </div>
+    </div>
+    <div class="portfolio">
+      <div class="portfolio-headings">
+        <h2>Mi Portfolio</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="container">
+        <div class="card">
+          <div class="card__img"></div>
+          <div class="card__title"></div>
+          <h2>Proyectos</h2>
+          <div class="card__project-link">
+            <a href="https://github.com/Sariiituus">
+              <img
+                src="./assets/images/github-brands.svg"
+                alt="Github"
+                class="logo-github"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-section">
+      <div class="conctact-headings">
+        <h2>Contactamé</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="container-contact">
+        <div class="contact-form">
+          <h4>Enviar mensaje</h4>
+          <form class="formulario">
+            <input type="text" placeholder="Nombre" />
+            <input type="email" placeholder="Email" />
+            <textarea placeholder="Escribe tu mensaje aquí"> </textarea>
+            <button type="submit" class="btn-submit">Enviar mensaje</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
